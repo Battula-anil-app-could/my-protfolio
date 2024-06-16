@@ -1,0 +1,75 @@
+.contact-me-container {
+    padding: 50px 20px;
+    background-color: var(--toast-shadow);
+    color: var(--black);
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/Home/contactusbg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+  
+  .contact-me-container h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--toast-success);
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 25px;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    transition: transform 0.2s;
+    
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid var(--toast-success);
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--sea-green);
+    color: var(--white);
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: var(--sea-green-dark);
+  }
+  
+  @media (max-width: 768px) {
+    .contact-me-container {
+      padding: 30px 10px;
+    }
+  
+    .contact-me-container h2 {
+      font-size: 24px;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  }
+  

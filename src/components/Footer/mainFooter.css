@@ -1,0 +1,18 @@
+.main-footer {
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    background-color:  #070707;
+    color: var(--white);
+  }
+  
+  .main-footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .main-footer {
+      padding: 10px;
+    }
+  }
+  
