@@ -1,5 +1,5 @@
 import React from 'react'
-import Typical from 'react-typical'
+import { Typewriter } from 'react-simple-typewriter';
 import "./profile.css"
 export default function Profile() {
   return (
@@ -24,25 +24,34 @@ export default function Profile() {
                 <div className='profile-details-role'>
                   <span className='primary-text'>
                     <h1>
-                      <Typical
+                      {/* <Typical
                         loop={Infinity}
                         steps={[
-                          "MERN Stock Developer",
+                          "",
                           3000,
-                          "Python Developer",
+                          "",
                           3000,
                           "Blockchain Developer",
                           3000,
-                          "DSA In Python",
+                          "",
                           3000,
-                          "Full Stock Developer",
+                          "",
                           3000,
-                          "React Dev",
+                          "",
                           3000,
-                          "Web Scraping Puppeteer",
+                          "",
                           3000,
 
                         ]}
+                      /> */}
+                       <Typewriter
+                        words={['MERN Stock Developer', 'Python Developer','Blockchain Developer','DSA In Python','Full Stock Developer','React Dev','Web Scraping Puppeteer']}
+                        loop={5}
+                        cursor
+                        cursorStyle="/"
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
                       />
                     </h1>
                     <span className='profile-role-description'>
