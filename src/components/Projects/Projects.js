@@ -8,12 +8,7 @@ const projects = [
     description: 'It is almost similar to Flipkart but with my own UI and a responsive website.',
     technologies: ['MySQL', 'Node.js', 'Express.js', 'React.js']
   },
-  {
-    name: 'Password Saving App',
-    link: 'https://anilpsapp.ccbp.tech/',
-    description: 'A simple UI for saving all passwords, usernames of different websites or apps. Passwords are shown to the user when they click on "show passwords". This is not a responsive website.',
-    technologies: ['React.js']
-  },
+
   {
     name: 'Wikipedia Search App',
     link: 'https://anilwikihttp.ccbp.tech/',
