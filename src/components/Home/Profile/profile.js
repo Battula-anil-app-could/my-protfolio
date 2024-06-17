@@ -45,7 +45,7 @@ export default function Profile() {
                         ]}
                       /> */}
                        <Typewriter
-                        words={['MERN Stock Developer', 'Python Developer','Blockchain Developer','DSA In Python','Full Stock Developer','React Dev','Web Scraping Puppeteer']}
+                        words={['MERN Stack Developer', 'Python Developer','Blockchain Developer','DSA In Python','Full Stack Developer','React Dev','Web Scraping Puppeteer']}
                         loop={Infinity}
                         cursor
                         cursorStyle="/"

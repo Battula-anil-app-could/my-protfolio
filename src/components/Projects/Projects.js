@@ -3,7 +3,7 @@ import './projects.css';
 
 const projects = [
   {
-    name: 'E-MERN Stack Commerce Website',
+    name: 'MERN Stack E-Commerce Website',
     link: 'https://anil-ecommerce-app.netlify.app/',
     description: 'It is almost similar to Flipkart but with my own UI and a responsive website.',
     technologies: ['MySQL', 'Node.js', 'Express.js', 'React.js']
