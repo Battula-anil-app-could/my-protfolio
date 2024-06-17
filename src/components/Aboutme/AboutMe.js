@@ -54,7 +54,7 @@ export default function AboutMe() {
         </div>
         <div className="about-me-details">
           <h2>
-            AboutMe
+            About Me
           </h2>
           {experiences.map((exp, index) => (
             <div key={index} className={`experience ${index === currentExperience ? 'show' : 'hide'}`}>
