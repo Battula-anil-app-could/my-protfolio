@@ -18,7 +18,7 @@ export default function AboutMe() {
       title: 'Dugong Global Services - Team Leader',
       duration: 'October 2023 - Present',
       description: [
-        'Played a major role in this startup, acting as a team leader and handling HR-related tasks.',
+        'Played a major role in this startup, acting as a team leader.',
         'Led a team working on smart contracts in Rust, providing debugging support and code solutions.',
         'Successfully uploaded several crates to crates.io under the name "dharitri".',
         'Facilitated team collaboration and ensured project milestones were met efficiently.'
