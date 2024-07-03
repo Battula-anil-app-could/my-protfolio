@@ -6,6 +6,16 @@ export default function AboutMe() {
   const [currentExperience, setCurrentExperience] = useState(0);
   const experiences = [
     {
+      title: 'Dugong Global Services - Software Developer',
+      duration: 'October 2023 - Present',
+      description: [
+        'Played a major role in this startup, acting as a Software Developer.',
+        'Designed and developed an employee portal for the company using the MERNstack',
+        'Implemented features such as leave management, payslips, and daily work timetracking.',
+        'Facilitated team collaboration and ensured project milestones were met efficiently.'
+      ]
+    },
+    {
       title: 'VSaas Global Services - Python Developer',
       duration: 'March 27, 2023 - September 31, 2023',
       description: [
@@ -13,17 +23,8 @@ export default function AboutMe() {
         'Utilized Python, React.js, Node.js, Express.js, and MySQL to create a robust and scalable platform.',
         'Collaborated with a cross-functional team to ensure seamless integration of frontend and backend components.'
       ]
-    },
-    {
-      title: 'Dugong Global Services - Team Leader',
-      duration: 'October 2023 - Present',
-      description: [
-        'Played a major role in this startup, acting as a team leader.',
-        'Led a team working on smart contracts in Rust, providing debugging support and code solutions.',
-        'Successfully uploaded several crates to crates.io under the name "dharitri".',
-        'Facilitated team collaboration and ensured project milestones were met efficiently.'
-      ]
     }
+    
   ];
   
   useEffect(() => {
